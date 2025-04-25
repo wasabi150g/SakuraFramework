@@ -1,9 +1,7 @@
 package graphics
 
-import graphics.ShaderFactory
 import openGL.GLProperty
 import openGL.GLShader
-import openGL.GLType
 import org.lwjgl.opengl.GL11
 import org.lwjgl.opengl.GL20
 

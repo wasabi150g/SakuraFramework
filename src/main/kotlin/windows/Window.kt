@@ -5,7 +5,6 @@ import events.on
 import windows.events.keyboards.Keyboard
 import windows.events.mouse.Mouse
 import graphics.Context
-import graphics.Matrix4D
 import org.lwjgl.glfw.GLFW
 import org.lwjgl.opengl.GL
 import org.lwjgl.opengl.GL11

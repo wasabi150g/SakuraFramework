@@ -22,7 +22,7 @@ object Launcher {
         frameNow = 0
 
         for (window in windows) {
-            GLFW.glfwMakeContextCurrent(window.id);
+            GLFW.glfwMakeContextCurrent(window.id)
 
             window.init(Context())
         }
@@ -42,7 +42,7 @@ object Launcher {
                 while (iterator.hasNext()) {
                     val activeWindow = iterator.next()
 
-                    GLFW.glfwMakeContextCurrent(activeWindow.id);
+                    GLFW.glfwMakeContextCurrent(activeWindow.id)
 
                     activeWindow.main(Context())
 
